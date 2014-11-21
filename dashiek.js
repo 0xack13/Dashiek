@@ -169,7 +169,7 @@ var iNettuts = {
             forcePlaceholderSize: true,
             revert: 300,
             delay: 100,
-            opacity: 0.8,
+            opacity: 1,
             containment: 'document',
             start: function (e,ui) {
                 $(ui.helper).addClass('dragging');

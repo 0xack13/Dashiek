@@ -166,6 +166,7 @@ var iNettuts = {
             }
         });
 
+        //Opacity while dragging the object
         $(settings.columns).sortable({
             items: $sortableItems,
             connectWith: $(settings.columns),
@@ -174,7 +175,7 @@ var iNettuts = {
             forcePlaceholderSize: true,
             revert: 300,
             delay: 100,
-            opacity: 0.8,
+            opacity: 0.6,
             containment: 'document',
             start: function (e,ui) {
                 $(ui.helper).addClass('dragging');
