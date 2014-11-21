@@ -22,6 +22,7 @@ a {color:white;}
 #head {
     /*  background: #000 url(img/head-bg.png) repeat-x; */
     height: 100px;
+    background-color: brown;
 }
 #head h1 {
     line-height: 100px;
@@ -50,7 +51,7 @@ a {color:white;}
 #columns #column3 .widget { margin: 30px 25px 30px 35px; }
 #columns .widget {
     margin: 30px 20px 0 20px;
-    padding: 2px;
+    padding: 10px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
 }
