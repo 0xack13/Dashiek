@@ -20,14 +20,14 @@ a {color:white;}
      
 /* Head section */
 #head {
-    background: #000 url(img/head-bg.png) repeat-x;
+    /*  background: #000 url(img/head-bg.png) repeat-x; */
     height: 100px;
 }
 #head h1 {
     line-height: 100px;
     color: #FFF;
     text-align: center;
-    background: url(img/inettuts.png) no-repeat center;
+    /*  background: url(img/inettuts.png) no-repeat center; */
     text-indent: -9999em
 }
 /* End Head Section */
@@ -42,10 +42,10 @@ a {color:white;}
         height: 400px;
 }
      
-/* Column dividers (background-images) : */
+/* Column dividers (background-images) : 
     #columns #column1 { background: url(img/column-bg-left.png) no-repeat right top; }
     #columns #column3 { background: url(img/column-bg-right.png) no-repeat left top; }
-         
+         */
 #columns #column1 .widget { margin: 30px 35px 30px 25px; }
 #columns #column3 .widget { margin: 30px 25px 30px 35px; }
 #columns .widget {
@@ -66,7 +66,7 @@ a {color:white;}
     float: left;
 }
 #columns .widget .widget-content {
-    background: #333 url(img/widget-content-bg.png) repeat-x;
+    /* background: #333 url(img/widget-content-bg.png) repeat-x; */
     padding: 5px;
     color: #DDD;
     -moz-border-radius-bottomleft: 2px;
@@ -75,5 +75,15 @@ a {color:white;}
     -webkit-border-bottom-right-radius: 2px;
     line-height: 1.2em;
     overflow: hidden;
+}
+
+#columns .column {
+    float: left;
+    width: 33.3%;
+     
+    /* Min-height: */
+        min-height: 400px;
+        height: auto !important; 
+        height: 400px;
 }
 /* End Columns section */

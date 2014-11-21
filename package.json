@@ -1,0 +1,16 @@
+{
+  "name": "Dashiek",
+  "version": "0.0.0",
+  "description": "Simple Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "default"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-connect": "^0.9.0"
+  }
+}
