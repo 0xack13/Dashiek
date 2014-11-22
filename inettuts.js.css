@@ -1,7 +1,8 @@
 /* JS-Enabled CSS */
 
 .widget-head {
-    background-color: yellow;
+    background-color: blue;
+    opacity: 0.8;
 }
 .widget-head a.remove  {
     float: right;
@@ -38,6 +39,7 @@
 
 .collapsed .widget-head a.collapse {background-position:-38px 0;}
 .collapsed .widget-content {display:none !important;}
+
 /* placeholder CSS */
 .widget-placeholder { background-color: green; border: 6px dashed #999;}
 #column1 .widget-placeholder { margin: 30px 35px 0 25px; }

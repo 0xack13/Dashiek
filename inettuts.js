@@ -173,7 +173,7 @@ var iNettuts = {
             handle: settings.handleSelector,
             placeholder: 'widget-placeholder',
             forcePlaceholderSize: true,
-            revert: 300,
+            revert: 600,
             delay: 100,
             opacity: 0.6,
             containment: 'document',
